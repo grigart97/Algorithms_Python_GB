@@ -2,11 +2,6 @@
 
 n = int(input('Введите '))
 sum = 0
-for i in range(n+1):
+for i in range(n):
     sum += 1 * (-0.5) ** i
 print(sum)
-
-n = int(input("Введите n: "))
-bn = 1 * ((-0.5) ** (n - 1))
-sn = ((bn * (-0.5)) - 1) / -1.5
-print(sn)
