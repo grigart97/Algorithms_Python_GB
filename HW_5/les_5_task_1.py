@@ -23,4 +23,3 @@ mean_income = sum([comp.m_income for comp in s]) / companies_quantity
 print(f'Средняя прибыль компаний - {mean_income}')
 for comp in s:
     print(f'Прибыль компании "{comp.name}" ниже среднего' if comp.m_income < mean_income else f'Прибыль компании "{comp.name}" выше среднего')
-
