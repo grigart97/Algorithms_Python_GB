@@ -13,7 +13,7 @@ print(arr)
 def bubble(array):
     for n in range(1, len(array) - 1):
         for j in range(len(array) - n):
-            if array[j] > array[j + 1]:
+            if array[j] < array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
 
 
